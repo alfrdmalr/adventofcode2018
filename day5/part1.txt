@@ -1,8 +1,0 @@
-import sys
-import re
-
-#read from input file and store in a list
-rawInput = sys.stdin.readlines()
-input = []
-for line in rawInput:
-    input.append(line.strip())
